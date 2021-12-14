@@ -1,0 +1,117 @@
+Learning Relaxed Belady for Content Distribution Network Caching
+    paper came out of Princeton and MSR, Zhenyu Song, Daniel Berger, Kai Li,
+        Wyatt LLoyd
+
+Motivation
+    CDNs deliver internet content to users
+    Caches are used to store requests that users make, so that if a user 
+        requests something in the cache, their request won't have to travel
+        through the wide area network.
+    Minimizing wide area network traffic is key: it reduces cost for CDNs as
+        well as improves user experience
+    Key metric: byte miss ratio, which is ratio of missed bytes to total bytes
+        delivered
+    Instead of increasing cache size, let's make better decisions about what
+        to cache
+
+Background: Other Caching Algorithms
+    Most common and easily understood: LRU Cache
+        evict elements that are least recently used, works pretty well but
+        is not good for all workloads: most entries in a CDN (75% of them)
+        won't receive additional requests
+    LRUK cache
+        starting to get smart: track some previous information (in this case
+        k previous requests) to estimate some useful information
+        reduces to LRU cache
+    An optimal solution: The Belady MIN algorithm
+        an oracle algorithm, it evicts the entry that will be used furthest
+        from now. but this necessarily requires future information! still
+        useful for retrospective analysis and comparison for caching algos
+    PARROT
+        performs imitation learning on the Belady MIN algorithm, an alternative
+        to what LRB does
+
+The LRB Algorithm
+    Main idea: use past information as training data, and train a model to
+        predict access times, and use this to evict the furthest item when cache
+        is full
+
+Main Challenges:
+    What information to use?
+        how much training data do you use? too little gives a bad estimate,
+        but too much takes up space used for caching
+    How do we create this training data?
+        Easy, label based on next access times. if not in memory window, then
+        just say it's twice the length of the memory window
+    What architecture do we use?
+        Too complicated a model makes inference/training take too long
+    How do we select eviction candidates?
+        Estimating future access times for all elements of cache is
+        intractable
+    End-to-end evaluation?
+        takes a long time
+
+The Belady Boundary
+    To solve the eviction candidate problem, use the Belady boundary
+    Relaxation: instead of evicting the furthest element, just evict any
+        past a boundary
+    Now don't need to calculate prediction time for all elements, just a random
+        sample that is hopefully representative of the whole population. then
+        evict any one of those that is past the boundary
+
+Creating Training Data
+    Use a memory window of past experience
+    Items labeled according to access time, or otherwise 2x past the memory
+        window if it wasn't accessed recently
+
+Predicting Access Times
+    Use decision trees to predict access times
+    This is much more lightweight than neural networks (like PARROT), and
+        allows for quick training time (which must be done often) and inference
+        times
+    Uses features of requests, like type, size, recency, long-term frequency
+
+Evicting From Cache
+    When cache is full, we need to evict
+    Use our trained model to predict access times of a random sample of
+        the cache
+    This way we don't need to predict access time for all elements, just those
+        in our sample. and we can evict *any* element past the Belady boundary,
+        so the prediction problem is easier
+
+Drawbacks
+    Any data based approach is vulnerable to change in distribution
+        size of memory window controls training data
+        small window means predictions will be really off, but large window
+        takes up space that could be used for caching
+    Training a complex model can take quite long
+        At runtime this isn't too bad (maybe at scale it is), but especially
+        during training and model selection this eats up a bunch of time.
+
+Evaluation
+    Reimplemented the algorithm (harder than I thought)
+        hard because had to get up to speed with simulator, fit everything
+        into existing simulator rather than just coding up a simple 
+        Python solution
+    Evaluated on new dataset: the trends hold! (for now)
+        Wikipedia dataset (older version) was used in paper, but newer trace is
+        available. The newer trace is quite similar to the old Wikipedia trace,
+        so the trend holding is not surprising. Still unknown how robust this
+        is to other traces (in a public sense, as private traces were used in
+        the paper that we don't have access to)
+    In the graphs, Belady is optimlal, relaxed is Belady with boundary but
+        still oracle algorithm, and SOA is best of *all* algorithms.
+    The point is that LRB works well on most traces, rather than claiming that
+        it's best at all
+
+Difficulties
+    Again, working with existing simulator is difficult because it precludes
+        running on simple test cases
+    Evaluating in minutes still means ~240 min, so while it's not days it
+        still takes a long time to verify that my reimplementation is correct
+    Few large-scale traces are publically available, Wikipedia is, and the 
+        other ones in the paper from actual CDNs are not.
+    Wish I had done simple Python reimplementations so I could do quick
+        iteration and test on simple traces easily
+    Lost partner...
+        

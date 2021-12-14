@@ -1,0 +1,1619 @@
+nohup: ignoring input
+webcachesim_cli trace/wiki2018_truncated.tr CedLRB 1099511627776 --memory_window=671088640 
+running sanity check on trace: /home/cedrickargueta/Princeton/classes/cos561/data/trace/wiki2018_truncated.tr
+n_extra_fields: 1
+n_req: 0
+n_req: 1000000
+n_req: 2000000
+n_req: 3000000
+n_req: 4000000
+n_req: 5000000
+n_req: 6000000
+n_req: 7000000
+n_req: 8000000
+n_req: 9000000
+n_req: 10000000
+n_req: 11000000
+n_req: 12000000
+n_req: 13000000
+n_req: 14000000
+n_req: 15000000
+n_req: 16000000
+n_req: 17000000
+n_req: 18000000
+n_req: 19000000
+n_req: 20000000
+n_req: 21000000
+n_req: 22000000
+n_req: 23000000
+n_req: 24000000
+n_req: 25000000
+n_req: 26000000
+n_req: 27000000
+n_req: 28000000
+n_req: 29000000
+n_req: 30000000
+n_req: 31000000
+n_req: 32000000
+n_req: 33000000
+n_req: 34000000
+n_req: 35000000
+n_req: 36000000
+n_req: 37000000
+n_req: 38000000
+n_req: 39000000
+n_req: 40000000
+n_req: 41000000
+n_req: 42000000
+n_req: 43000000
+n_req: 44000000
+n_req: 45000000
+n_req: 46000000
+n_req: 47000000
+n_req: 48000000
+n_req: 49000000
+n_req: 50000000
+n_req: 51000000
+n_req: 52000000
+n_req: 53000000
+n_req: 54000000
+n_req: 55000000
+n_req: 56000000
+n_req: 57000000
+n_req: 58000000
+n_req: 59000000
+n_req: 60000000
+n_req: 61000000
+n_req: 62000000
+n_req: 63000000
+n_req: 64000000
+n_req: 65000000
+n_req: 66000000
+n_req: 67000000
+n_req: 68000000
+n_req: 69000000
+n_req: 70000000
+n_req: 71000000
+n_req: 72000000
+n_req: 73000000
+n_req: 74000000
+n_req: 75000000
+n_req: 76000000
+n_req: 77000000
+n_req: 78000000
+n_req: 79000000
+n_req: 80000000
+n_req: 81000000
+n_req: 82000000
+n_req: 83000000
+n_req: 84000000
+n_req: 85000000
+n_req: 86000000
+n_req: 87000000
+n_req: 88000000
+n_req: 89000000
+n_req: 90000000
+n_req: 91000000
+n_req: 92000000
+n_req: 93000000
+n_req: 94000000
+n_req: 95000000
+n_req: 96000000
+n_req: 97000000
+n_req: 98000000
+n_req: 99000000
+n_req: 100000000
+n_req: 101000000
+n_req: 102000000
+n_req: 103000000
+n_req: 104000000
+n_req: 105000000
+n_req: 106000000
+n_req: 107000000
+n_req: 108000000
+n_req: 109000000
+n_req: 110000000
+n_req: 111000000
+n_req: 112000000
+n_req: 113000000
+n_req: 114000000
+n_req: 115000000
+n_req: 116000000
+n_req: 117000000
+n_req: 118000000
+n_req: 119000000
+n_req: 120000000
+n_req: 121000000
+n_req: 122000000
+n_req: 123000000
+n_req: 124000000
+n_req: 125000000
+n_req: 126000000
+n_req: 127000000
+n_req: 128000000
+n_req: 129000000
+n_req: 130000000
+n_req: 131000000
+n_req: 132000000
+n_req: 133000000
+n_req: 134000000
+n_req: 135000000
+n_req: 136000000
+n_req: 137000000
+n_req: 138000000
+n_req: 139000000
+n_req: 140000000
+n_req: 141000000
+n_req: 142000000
+n_req: 143000000
+n_req: 144000000
+n_req: 145000000
+n_req: 146000000
+n_req: 147000000
+n_req: 148000000
+n_req: 149000000
+pass sanity check
+simulating
+
+seq: 1000000
+cache size: 29196098273/1099511627776 (0.0265537)
+delta t: 0.427
+segment bmr: 0.786717
+rss: 1915125760
+in/out metadata: 406883 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 2000000
+cache size: 53095225609/1099511627776 (0.0482898)
+delta t: 0.491
+segment bmr: 0.655543
+rss: 1915125760
+in/out metadata: 686594 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 3000000
+cache size: 74277251325/1099511627776 (0.0675548)
+delta t: 0.488
+segment bmr: 0.581545
+rss: 1915125760
+in/out metadata: 913381 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 4000000
+cache size: 93778797108/1099511627776 (0.0852913)
+delta t: 0.56
+segment bmr: 0.536066
+rss: 1995415552
+in/out metadata: 1110392 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 5000000
+cache size: 112349643686/1099511627776 (0.102181)
+delta t: 0.526
+segment bmr: 0.50919
+rss: 2008391680
+in/out metadata: 1291214 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 6000000
+cache size: 129777887796/1099511627776 (0.118032)
+delta t: 0.53
+segment bmr: 0.472776
+rss: 2020286464
+in/out metadata: 1455601 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 7000000
+cache size: 145487618774/1099511627776 (0.13232)
+delta t: 0.539
+segment bmr: 0.430847
+rss: 2031099904
+in/out metadata: 1604129 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 8000000
+cache size: 160859745480/1099511627776 (0.146301)
+delta t: 0.543
+segment bmr: 0.418829
+rss: 2041372672
+in/out metadata: 1746176 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 9000000
+cache size: 176163031410/1099511627776 (0.160219)
+delta t: 0.543
+segment bmr: 0.419483
+rss: 2050834432
+in/out metadata: 1879991 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 10000000
+cache size: 191167971457/1099511627776 (0.173866)
+delta t: 0.541
+segment bmr: 0.429278
+rss: 2060566528
+in/out metadata: 2015444 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 11000000
+cache size: 205727475899/1099511627776 (0.187108)
+delta t: 0.667
+segment bmr: 0.411243
+rss: 2079731712
+in/out metadata: 2141211 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 12000000
+cache size: 219315688202/1099511627776 (0.199466)
+delta t: 0.561
+segment bmr: 0.397671
+rss: 2098114560
+in/out metadata: 2261635 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 13000000
+cache size: 232086634071/1099511627776 (0.211082)
+delta t: 0.56
+segment bmr: 0.379115
+rss: 2118119424
+in/out metadata: 2371507 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 14000000
+cache size: 244828966067/1099511627776 (0.222671)
+delta t: 0.558
+segment bmr: 0.371918
+rss: 2137042944
+in/out metadata: 2475120 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 15000000
+cache size: 258249744508/1099511627776 (0.234877)
+delta t: 0.563
+segment bmr: 0.381655
+rss: 2156236800
+in/out metadata: 2580716 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 16000000
+cache size: 271088115275/1099511627776 (0.246553)
+delta t: 0.568
+segment bmr: 0.358792
+rss: 2174619648
+in/out metadata: 2680735 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 17000000
+cache size: 284359643385/1099511627776 (0.258624)
+delta t: 0.572
+segment bmr: 0.359127
+rss: 2193813504
+in/out metadata: 2783692 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 18000000
+cache size: 295457904280/1099511627776 (0.268717)
+delta t: 0.562
+segment bmr: 0.318662
+rss: 2210304000
+in/out metadata: 2872416 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 19000000
+cache size: 307230640623/1099511627776 (0.279425)
+delta t: 0.565
+segment bmr: 0.332391
+rss: 2227605504
+in/out metadata: 2968337 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 20000000
+cache size: 318817585983/1099511627776 (0.289963)
+delta t: 0.57
+segment bmr: 0.335362
+rss: 2244907008
+in/out metadata: 3060685 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 21000000
+cache size: 329180158117/1099511627776 (0.299388)
+delta t: 0.578
+segment bmr: 0.315056
+rss: 2261397504
+in/out metadata: 3149817 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 22000000
+cache size: 339163743325/1099511627776 (0.308468)
+delta t: 0.571
+segment bmr: 0.297689
+rss: 2277617664
+in/out metadata: 3236578 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 23000000
+cache size: 348749215080/1099511627776 (0.317186)
+delta t: 0.571
+segment bmr: 0.298648
+rss: 2293297152
+in/out metadata: 3320093 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 24000000
+cache size: 358229734011/1099511627776 (0.325808)
+delta t: 0.58
+segment bmr: 0.293664
+rss: 2308972544
+in/out metadata: 3402048 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 25000000
+cache size: 368341969903/1099511627776 (0.335005)
+delta t: 0.577
+segment bmr: 0.301925
+rss: 2323841024
+in/out metadata: 3481803 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 26000000
+cache size: 377858721098/1099511627776 (0.343661)
+delta t: 0.578
+segment bmr: 0.292338
+rss: 2338439168
+in/out metadata: 3558583 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 27000000
+cache size: 387666390873/1099511627776 (0.352581)
+delta t: 0.58
+segment bmr: 0.291748
+rss: 2353577984
+in/out metadata: 3637737 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 28000000
+cache size: 397262063404/1099511627776 (0.361308)
+delta t: 0.576
+segment bmr: 0.28708
+rss: 2367635456
+in/out metadata: 3711991 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 29000000
+cache size: 407267125112/1099511627776 (0.370407)
+delta t: 0.578
+segment bmr: 0.286179
+rss: 2381422592
+in/out metadata: 3784148 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 30000000
+cache size: 416736524684/1099511627776 (0.37902)
+delta t: 0.582
+segment bmr: 0.278867
+rss: 2394939392
+in/out metadata: 3853332 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 31000000
+cache size: 426682618428/1099511627776 (0.388066)
+delta t: 0.584
+segment bmr: 0.27627
+rss: 2408726528
+in/out metadata: 3925426 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 32000000
+cache size: 435970774154/1099511627776 (0.396513)
+delta t: 0.583
+segment bmr: 0.280717
+rss: 2422784000
+in/out metadata: 3999430 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 33000000
+cache size: 444477375012/1099511627776 (0.40425)
+delta t: 0.582
+segment bmr: 0.265109
+rss: 2436030464
+in/out metadata: 4068573 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 34000000
+cache size: 453035381741/1099511627776 (0.412033)
+delta t: 0.584
+segment bmr: 0.261383
+rss: 2449006592
+in/out metadata: 4136074 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 35000000
+cache size: 461962543039/1099511627776 (0.420152)
+delta t: 0.823
+segment bmr: 0.262265
+rss: 2493628416
+in/out metadata: 4201717 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 36000000
+cache size: 470590939465/1099511627776 (0.428)
+delta t: 0.588
+segment bmr: 0.26277
+rss: 2499035136
+in/out metadata: 4268610 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 37000000
+cache size: 479186916751/1099511627776 (0.435818)
+delta t: 0.593
+segment bmr: 0.262098
+rss: 2505793536
+in/out metadata: 4334358 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 38000000
+cache size: 487280274961/1099511627776 (0.443179)
+delta t: 0.585
+segment bmr: 0.248548
+rss: 2517417984
+in/out metadata: 4397305 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 39000000
+cache size: 495400211048/1099511627776 (0.450564)
+delta t: 0.596
+segment bmr: 0.249696
+rss: 2529583104
+in/out metadata: 4461477 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 40000000
+cache size: 502686828793/1099511627776 (0.457191)
+delta t: 0.588
+segment bmr: 0.230693
+rss: 2541477888
+in/out metadata: 4523475 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 41000000
+cache size: 509837810008/1099511627776 (0.463695)
+delta t: 0.588
+segment bmr: 0.220161
+rss: 2553102336
+in/out metadata: 4584144 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 42000000
+cache size: 519299653130/1099511627776 (0.4723)
+delta t: 0.589
+segment bmr: 0.252655
+rss: 2565267456
+in/out metadata: 4648137 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 43000000
+cache size: 529175119916/1099511627776 (0.481282)
+delta t: 0.598
+segment bmr: 0.260575
+rss: 2578243584
+in/out metadata: 4716825 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 44000000
+cache size: 539024179552/1099511627776 (0.49024)
+delta t: 0.598
+segment bmr: 0.262398
+rss: 2591490048
+in/out metadata: 4786672 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 45000000
+cache size: 548705308348/1099511627776 (0.499045)
+delta t: 0.597
+segment bmr: 0.25811
+rss: 2603925504
+in/out metadata: 4852327 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 46000000
+cache size: 557996676420/1099511627776 (0.507495)
+delta t: 0.601
+segment bmr: 0.245109
+rss: 2616090624
+in/out metadata: 4915880 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 47000000
+cache size: 567185765408/1099511627776 (0.515852)
+delta t: 0.601
+segment bmr: 0.241454
+rss: 2627985408
+in/out metadata: 4977643 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 48000000
+cache size: 575154092080/1099511627776 (0.5231)
+delta t: 0.599
+segment bmr: 0.234418
+rss: 2638798848
+in/out metadata: 5033582 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 49000000
+cache size: 583151258140/1099511627776 (0.530373)
+delta t: 0.596
+segment bmr: 0.230864
+rss: 2649882624
+in/out metadata: 5091297 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 50000000
+cache size: 591180757947/1099511627776 (0.537676)
+delta t: 0.595
+segment bmr: 0.226238
+rss: 2660966400
+in/out metadata: 5148870 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 51000000
+cache size: 599001401300/1099511627776 (0.544789)
+delta t: 0.597
+segment bmr: 0.226454
+rss: 2672050176
+in/out metadata: 5206532 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 52000000
+cache size: 605961785048/1099511627776 (0.551119)
+delta t: 0.594
+segment bmr: 0.216854
+rss: 2682593280
+in/out metadata: 5261495 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 53000000
+cache size: 613022595332/1099511627776 (0.557541)
+delta t: 0.592
+segment bmr: 0.214295
+rss: 2693136384
+in/out metadata: 5315558 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 54000000
+cache size: 620610460636/1099511627776 (0.564442)
+delta t: 0.592
+segment bmr: 0.221881
+rss: 2703679488
+in/out metadata: 5369163 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 55000000
+cache size: 628181276972/1099511627776 (0.571328)
+delta t: 0.595
+segment bmr: 0.220455
+rss: 2714222592
+in/out metadata: 5423337 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 56000000
+cache size: 636169983291/1099511627776 (0.578593)
+delta t: 0.604
+segment bmr: 0.219735
+rss: 2724495360
+in/out metadata: 5477263 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 57000000
+cache size: 643687961883/1099511627776 (0.585431)
+delta t: 0.593
+segment bmr: 0.216726
+rss: 2734497792
+in/out metadata: 5528386 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 58000000
+cache size: 651490024257/1099511627776 (0.592527)
+delta t: 0.596
+segment bmr: 0.225762
+rss: 2745040896
+in/out metadata: 5582992 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 59000000
+cache size: 658446045515/1099511627776 (0.598853)
+delta t: 0.592
+segment bmr: 0.208657
+rss: 2755043328
+in/out metadata: 5634636 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 60000000
+cache size: 665553230627/1099511627776 (0.605317)
+delta t: 0.596
+segment bmr: 0.206819
+rss: 2765316096
+in/out metadata: 5686939 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 61000000
+cache size: 672666281274/1099511627776 (0.611786)
+delta t: 0.6
+segment bmr: 0.205442
+rss: 2775048192
+in/out metadata: 5736656 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 62000000
+cache size: 679516899388/1099511627776 (0.618017)
+delta t: 0.597
+segment bmr: 0.204093
+rss: 2784780288
+in/out metadata: 5785821 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 63000000
+cache size: 686741378313/1099511627776 (0.624588)
+delta t: 0.594
+segment bmr: 0.202957
+rss: 2794242048
+in/out metadata: 5834104 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 64000000
+cache size: 693156199721/1099511627776 (0.630422)
+delta t: 0.594
+segment bmr: 0.194211
+rss: 2803433472
+in/out metadata: 5880903 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 65000000
+cache size: 699402472671/1099511627776 (0.636103)
+delta t: 0.594
+segment bmr: 0.196894
+rss: 2812624896
+in/out metadata: 5927444 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 66000000
+cache size: 705573335714/1099511627776 (0.641715)
+delta t: 0.592
+segment bmr: 0.189893
+rss: 2821275648
+in/out metadata: 5972059 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 67000000
+cache size: 711574541086/1099511627776 (0.647173)
+delta t: 0.591
+segment bmr: 0.188858
+rss: 2830196736
+in/out metadata: 6017164 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 68000000
+cache size: 717658448298/1099511627776 (0.652707)
+delta t: 0.593
+segment bmr: 0.183282
+rss: 2838847488
+in/out metadata: 6060553 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 69000000
+cache size: 723984318771/1099511627776 (0.65846)
+delta t: 0.596
+segment bmr: 0.190232
+rss: 2847768576
+in/out metadata: 6105866 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 70000000
+cache size: 730206087023/1099511627776 (0.664119)
+delta t: 0.6
+segment bmr: 0.181151
+rss: 2856419328
+in/out metadata: 6148304 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 71000000
+cache size: 736047737245/1099511627776 (0.669432)
+delta t: 0.596
+segment bmr: 0.177064
+rss: 2864259072
+in/out metadata: 6188342 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 72000000
+cache size: 743846627790/1099511627776 (0.676525)
+delta t: 0.604
+segment bmr: 0.222361
+rss: 2874261504
+in/out metadata: 6237711 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 73000000
+cache size: 750045860054/1099511627776 (0.682163)
+delta t: 0.601
+segment bmr: 0.184317
+rss: 2882371584
+in/out metadata: 6278999 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 74000000
+cache size: 756229764804/1099511627776 (0.687787)
+delta t: 0.603
+segment bmr: 0.1756
+rss: 2890752000
+in/out metadata: 6320608 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 75000000
+cache size: 762766039263/1099511627776 (0.693732)
+delta t: 0.601
+segment bmr: 0.183649
+rss: 2899132416
+in/out metadata: 6362371 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 76000000
+cache size: 768382391488/1099511627776 (0.69884)
+delta t: 0.6
+segment bmr: 0.172491
+rss: 2907512832
+in/out metadata: 6404166 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 77000000
+cache size: 773784820123/1099511627776 (0.703753)
+delta t: 0.605
+segment bmr: 0.168638
+rss: 2916163584
+in/out metadata: 6447317 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 78000000
+cache size: 780096897460/1099511627776 (0.709494)
+delta t: 0.606
+segment bmr: 0.18745
+rss: 2924814336
+in/out metadata: 6491320 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 79000000
+cache size: 787724250605/1099511627776 (0.716431)
+delta t: 0.623
+segment bmr: 0.202836
+rss: 2934816768
+in/out metadata: 6542146 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 80000000
+cache size: 795242117641/1099511627776 (0.723268)
+delta t: 0.611
+segment bmr: 0.20143
+rss: 2944548864
+in/out metadata: 6591519 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 81000000
+cache size: 802607039476/1099511627776 (0.729967)
+delta t: 0.609
+segment bmr: 0.201436
+rss: 2954280960
+in/out metadata: 6641210 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 82000000
+cache size: 810195504192/1099511627776 (0.736869)
+delta t: 0.61
+segment bmr: 0.205767
+rss: 2964013056
+in/out metadata: 6690301 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 83000000
+cache size: 817399959560/1099511627776 (0.743421)
+delta t: 0.624
+segment bmr: 0.198013
+rss: 2973474816
+in/out metadata: 6739607 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 84000000
+cache size: 824135189360/1099511627776 (0.749547)
+delta t: 0.617
+segment bmr: 0.186751
+rss: 2982936576
+in/out metadata: 6787283 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 85000000
+cache size: 830567103209/1099511627776 (0.755396)
+delta t: 0.609
+segment bmr: 0.18598
+rss: 2991857664
+in/out metadata: 6832882 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 86000000
+cache size: 837062107008/1099511627776 (0.761304)
+delta t: 0.612
+segment bmr: 0.181404
+rss: 3001049088
+in/out metadata: 6879308 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 87000000
+cache size: 843538498623/1099511627776 (0.767194)
+delta t: 0.618
+segment bmr: 0.182162
+rss: 3009970176
+in/out metadata: 6924552 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 88000000
+cache size: 849420426767/1099511627776 (0.772543)
+delta t: 0.608
+segment bmr: 0.171171
+rss: 3017809920
+in/out metadata: 6963457 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 89000000
+cache size: 855938732522/1099511627776 (0.778472)
+delta t: 0.612
+segment bmr: 0.182263
+rss: 3025920000
+in/out metadata: 7004399 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 90000000
+cache size: 862690101382/1099511627776 (0.784612)
+delta t: 0.613
+segment bmr: 0.185875
+rss: 3034570752
+in/out metadata: 7047181 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 91000000
+cache size: 868283233489/1099511627776 (0.789699)
+delta t: 0.61
+segment bmr: 0.168177
+rss: 3042410496
+in/out metadata: 7087355 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 92000000
+cache size: 873590292921/1099511627776 (0.794526)
+delta t: 0.611
+segment bmr: 0.160331
+rss: 3050520576
+in/out metadata: 7126848 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 93000000
+cache size: 878837049280/1099511627776 (0.799298)
+delta t: 0.606
+segment bmr: 0.156463
+rss: 3058360320
+in/out metadata: 7165797 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 94000000
+cache size: 884304442969/1099511627776 (0.80427)
+delta t: 0.609
+segment bmr: 0.16421
+rss: 3066470400
+in/out metadata: 7205451 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 95000000
+cache size: 889728779524/1099511627776 (0.809204)
+delta t: 0.61
+segment bmr: 0.158937
+rss: 3074310144
+in/out metadata: 7244300 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 96000000
+cache size: 895007270324/1099511627776 (0.814004)
+delta t: 0.615
+segment bmr: 0.159327
+rss: 3081879552
+in/out metadata: 7282250 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 97000000
+cache size: 900621414524/1099511627776 (0.81911)
+delta t: 0.611
+segment bmr: 0.162704
+rss: 3089719296
+in/out metadata: 7320695 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 98000000
+cache size: 906258355099/1099511627776 (0.824237)
+delta t: 0.606
+segment bmr: 0.16267
+rss: 3097288704
+in/out metadata: 7357445 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 99000000
+cache size: 912390079732/1099511627776 (0.829814)
+delta t: 0.614
+segment bmr: 0.175812
+rss: 3105128448
+in/out metadata: 7397070 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 100000000
+cache size: 917896989103/1099511627776 (0.834822)
+delta t: 0.618
+segment bmr: 0.160607
+rss: 3113238528
+in/out metadata: 7436225 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 101000000
+cache size: 923228554651/1099511627776 (0.839671)
+delta t: 0.615
+segment bmr: 0.156746
+rss: 3121078272
+in/out metadata: 7475672 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 102000000
+cache size: 928896073013/1099511627776 (0.844826)
+delta t: 0.609
+segment bmr: 0.164648
+rss: 3128918016
+in/out metadata: 7513905 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 103000000
+cache size: 934174110731/1099511627776 (0.849626)
+delta t: 0.612
+segment bmr: 0.15576
+rss: 3136487424
+in/out metadata: 7551823 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 104000000
+cache size: 940308808714/1099511627776 (0.855206)
+delta t: 0.621
+segment bmr: 0.173964
+rss: 3144327168
+in/out metadata: 7591153 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 105000000
+cache size: 946037263572/1099511627776 (0.860416)
+delta t: 0.621
+segment bmr: 0.164982
+rss: 3152166912
+in/out metadata: 7630199 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 106000000
+cache size: 951862598637/1099511627776 (0.865714)
+delta t: 0.62
+segment bmr: 0.168229
+rss: 3160276992
+in/out metadata: 7669377 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 107000000
+cache size: 957086057821/1099511627776 (0.870465)
+delta t: 0.608
+segment bmr: 0.160086
+rss: 3167576064
+in/out metadata: 7705370 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 108000000
+cache size: 961889783359/1099511627776 (0.874834)
+delta t: 0.606
+segment bmr: 0.148958
+rss: 3174334464
+in/out metadata: 7738695 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 109000000
+cache size: 966186180509/1099511627776 (0.878741)
+delta t: 0.612
+segment bmr: 0.136568
+rss: 3181092864
+in/out metadata: 7772131 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 110000000
+cache size: 970784217889/1099511627776 (0.882923)
+delta t: 0.609
+segment bmr: 0.143175
+rss: 3188121600
+in/out metadata: 7805763 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 111000000
+cache size: 975798891151/1099511627776 (0.887484)
+delta t: 0.606
+segment bmr: 0.151547
+rss: 3194880000
+in/out metadata: 7839248 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 112000000
+cache size: 981223315947/1099511627776 (0.892417)
+delta t: 0.613
+segment bmr: 0.160172
+rss: 3201908736
+in/out metadata: 7874516 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 113000000
+cache size: 986533173990/1099511627776 (0.897247)
+delta t: 0.621
+segment bmr: 0.155462
+rss: 3208937472
+in/out metadata: 7908307 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 114000000
+cache size: 992125323065/1099511627776 (0.902333)
+delta t: 0.621
+segment bmr: 0.160515
+rss: 3216236544
+in/out metadata: 7944569 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 115000000
+cache size: 997766818061/1099511627776 (0.907464)
+delta t: 0.614
+segment bmr: 0.158121
+rss: 3223265280
+in/out metadata: 7978814 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 116000000
+cache size: 1003569486309/1099511627776 (0.912741)
+delta t: 0.622
+segment bmr: 0.162476
+rss: 3230564352
+in/out metadata: 8015514 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 117000000
+cache size: 1008064379405/1099511627776 (0.916829)
+delta t: 0.624
+segment bmr: 0.141125
+rss: 3237593088
+in/out metadata: 8049846 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 118000000
+cache size: 1013053074015/1099511627776 (0.921366)
+delta t: 0.621
+segment bmr: 0.156854
+rss: 3244892160
+in/out metadata: 8084573 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 119000000
+cache size: 1017923407177/1099511627776 (0.925796)
+delta t: 0.615
+segment bmr: 0.148204
+rss: 3251650560
+in/out metadata: 8118133 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 120000000
+cache size: 1022669832063/1099511627776 (0.930113)
+delta t: 0.617
+segment bmr: 0.147916
+rss: 3258679296
+in/out metadata: 8152169 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 121000000
+cache size: 1028582826208/1099511627776 (0.935491)
+delta t: 0.623
+segment bmr: 0.160279
+rss: 3266248704
+in/out metadata: 8190552 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 122000000
+cache size: 1034616227640/1099511627776 (0.940978)
+delta t: 0.636
+segment bmr: 0.161665
+rss: 3274088448
+in/out metadata: 8229634 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 123000000
+cache size: 1040251981751/1099511627776 (0.946104)
+delta t: 0.623
+segment bmr: 0.162941
+rss: 3281387520
+in/out metadata: 8265916 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 124000000
+cache size: 1045754240922/1099511627776 (0.951108)
+delta t: 0.621
+segment bmr: 0.153861
+rss: 3288956928
+in/out metadata: 8302883 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 125000000
+cache size: 1051331702495/1099511627776 (0.956181)
+delta t: 0.626
+segment bmr: 0.156418
+rss: 3296526336
+in/out metadata: 8339279 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 126000000
+cache size: 1056425032307/1099511627776 (0.960813)
+delta t: 0.63
+segment bmr: 0.144472
+rss: 3303555072
+in/out metadata: 8373946 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 127000000
+cache size: 1061819301704/1099511627776 (0.965719)
+delta t: 1.124
+segment bmr: 0.151853
+rss: 3373928448
+in/out metadata: 8410328 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 128000000
+cache size: 1067285877428/1099511627776 (0.970691)
+delta t: 0.628
+segment bmr: 0.154116
+rss: 3376361472
+in/out metadata: 8444711 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 129000000
+cache size: 1072969987608/1099511627776 (0.975861)
+delta t: 0.634
+segment bmr: 0.154938
+rss: 3379064832
+in/out metadata: 8479198 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 130000000
+cache size: 1078409522306/1099511627776 (0.980808)
+delta t: 0.633
+segment bmr: 0.152433
+rss: 3381768192
+in/out metadata: 8513429 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 131000000
+cache size: 1083744521423/1099511627776 (0.98566)
+delta t: 0.629
+segment bmr: 0.149014
+rss: 3385552896
+in/out metadata: 8546751 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 132000000
+cache size: 1089342119846/1099511627776 (0.990751)
+delta t: 0.628
+segment bmr: 0.153055
+rss: 3389067264
+in/out metadata: 8580129 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
+
+seq: 133000000
+cache size: 1094619014956/1099511627776 (0.99555)
+delta t: 0.633
+segment bmr: 0.152576
+rss: 3392851968
+in/out metadata: 8613619 / 0
+memory_window: 671088640
+n_training: 0
+training_time: 0 ms
+inference_time: 0 us
